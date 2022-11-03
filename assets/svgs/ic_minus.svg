@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73" height="71" viewBox="0 0 73 71">
+  <defs>
+    <filter id="Rectangle_31" x="8" y="6" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_32" x="0" y="0" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.91"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11601" data-name="Rectangle 11601" width="12.077" height="12.087" fill="#f3f3f3"/>
+    </clipPath>
+  </defs>
+  <g id="minus" transform="translate(-280.5 -130.5)">
+    <g id="Group_10063" data-name="Group 10063" transform="translate(-2 -11)">
+      <g transform="matrix(1, 0, 0, 1, 282.5, 141.5)" filter="url(#Rectangle_31)">
+        <rect id="Rectangle_31-2" data-name="Rectangle 31" width="20" height="20" rx="10" transform="translate(25.5 23.5)" fill="#f6f9ff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 282.5, 141.5)" filter="url(#Rectangle_32)">
+        <rect id="Rectangle_32-2" data-name="Rectangle 32" width="20" height="20" rx="10" transform="translate(25.5 23.5)" fill="#1cb5b5"/>
+      </g>
+    </g>
+    <g id="Group_10064" data-name="Group 10064" transform="translate(310 158)">
+      <g id="Group_10059" data-name="Group 10059" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_52535" data-name="Path 52535" d="M.795,6.824A.745.745,0,0,1,.1,6.42a.737.737,0,0,1,.026-.793A.757.757,0,0,1,.81,5.267H11.287a.778.778,0,0,1,.031,1.556c-.441.005-.883,0-1.324,0" transform="translate(0 0)" fill="#f3f3f3"/>
+      </g>
+    </g>
+  </g>
+</svg>

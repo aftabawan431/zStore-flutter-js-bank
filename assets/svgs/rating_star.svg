@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312.391" height="310.991" viewBox="0 0 312.391 310.991">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.142" y1="0.231" x2="1" y2="1.171" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3c81c"/>
+      <stop offset="1" stop-color="#e3a805"/>
+    </linearGradient>
+    <filter id="rating_star" x="0" y="0" width="312.391" height="310.991" filterUnits="userSpaceOnUse">
+      <feOffset dy="50" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-color="#b06dcc" flood-opacity="0.318"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#rating_star)">
+    <path id="rating_star-2" data-name="rating_star" d="M6.841,1.4a1,1,0,0,1,1.708,0l1.537,2.521a1,1,0,0,0,.651.459l2.911.6a1,1,0,0,1,.528,1.662L12.24,8.715a1,1,0,0,0-.264.788l.3,2.8a1,1,0,0,1-1.382,1.027L8.083,12.152a1,1,0,0,0-.776,0L4.5,13.334a1,1,0,0,1-1.382-1.027l.3-2.8a1,1,0,0,0-.264-.788L1.215,6.645a1,1,0,0,1,.528-1.662l2.911-.6A1,1,0,0,0,5.3,3.921Z" transform="translate(148.5 98.5)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

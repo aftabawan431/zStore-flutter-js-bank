@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="76" viewBox="0 0 75 76">
+  <defs>
+    <filter id="Rectangle_31" x="2" y="3" width="73" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_32" x="0" y="0" width="73" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.91"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="back_white" transform="translate(-8.524 -18.524)">
+    <g id="Group_10051" data-name="Group 10051" transform="translate(28.024 39.024)">
+      <g transform="matrix(1, 0, 0, 1, -19.5, -20.5)" filter="url(#Rectangle_31)">
+        <rect id="Rectangle_31-2" data-name="Rectangle 31" width="28" height="28" rx="14" transform="translate(19.5 20.5)" fill="#f6f9ff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -19.5, -20.5)" filter="url(#Rectangle_32)">
+        <rect id="Rectangle_32-2" data-name="Rectangle 32" width="28" height="28" rx="8" transform="translate(19.5 20.5)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Icon_ionic-ios-arrow-up" data-name="Icon ionic-ios-arrow-up" d="M4.28,3.417,7.515.18a.612.612,0,1,1,.864.866L4.713,4.714a.61.61,0,0,1-.843.018L.178,1.048A.612.612,0,1,1,1.042.182Z" transform="translate(44.297 48.676) rotate(90)"/>
+  </g>
+</svg>
